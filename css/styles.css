@@ -71,19 +71,19 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+/* header area with the logo above nav bar */
 .logo {
     height:30vh;
     background-color: #BBD7D8;
     border-bottom: 1vh solid #0f3647;
    
 }
-
+/* Font for Paws & Palette */
 .logo h1{
     color:#0F3647;
     text-align: center;
     margin-top: 8vh;
-    font-size: 60px;
+    font-size: 3rem;
 
 }
   .header{
@@ -137,10 +137,10 @@ body {
 }
 
 .process h2 {
-    margin-bottom: 15vh;
+    margin-bottom: 3vh;
     text-align: center;
     color: white;
-    font-size: 50px;
+    font-size: 3rem;
 }
 
 .icons {
