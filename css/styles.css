@@ -17,7 +17,7 @@ body {
 }
 
 
-
+/* Code for the Navigation bar with a fixed position */
 .nav {
     height: 5vh;
    color: white;
@@ -115,10 +115,10 @@ body {
 
 
 .about {
-    height: 80vh;
+    height: 81vh;
     background-color: #fdf9ee;
 }
-
+/* Section for the Our Process with Flex display */
 .process {
     height: 80vh;
     background-color: #DA883F;
@@ -126,7 +126,7 @@ body {
     flex-direction:column ;
     justify-content: center;
 }
-
+/* Code for the div with the images set inside */
 .process-images {
     display: flex;
     flex-direction: row;
@@ -135,14 +135,14 @@ body {
     justify-content: space-around;
     margin-bottom: 10px;
 }
-
+/* Targets the H2 font ( How it Works!) */
 .process h2 {
     margin-bottom: 3vh;
     text-align: center;
     color: white;
     font-size: 3rem;
 }
-
+/* Class for all the Divs with images for How it works */
 .icons {
     width: 200px;
     display: flex;
@@ -161,6 +161,7 @@ body {
     color: white;
     font-size: 20px;
 }
+/* Portfolio Section */
 .portfolio {
     height: 80vh;
     background-color: rgb(255, 255, 255);
@@ -177,7 +178,7 @@ body {
     justify-content: space-evenly;
     }
 
-
+/* Footer area background color and height */
 .footer {
     height:20vh;
     background-color: #0F3647 ;
